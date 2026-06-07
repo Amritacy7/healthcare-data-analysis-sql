@@ -23,7 +23,7 @@ Healthcare patient records dataset.
 - Total Billing amount for each insurance provider
 - Rolling total billing amount by Month
 - Insurance provider with highest total billing amount each year
-- Patient demographics
+
 
 ## Tools Used
 - MySQL
