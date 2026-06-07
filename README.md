@@ -11,14 +11,18 @@ Healthcare patient records dataset.
 - Removed duplicates
 - Converted date columns from txt to date
 - Handled NULL and BLANK values
-- Standardized data formats
+- Standardized data format
+- Removing/dropping unnecessary columns 
 
 ## Analysis Performed
 - Admissions by year
+- Number of patients admitted grouped by age group( Child,Adults,Seniors)
 - Most common medical conditions
-- Prevelance of Medical consitions(disease) among particular age group
-- Billing amount by year, insurance provider
-- Rolling total billing amount by year, insurance provider 
+- Number of days patients are admitted in hospital based on medical condition
+- Prevelance of Medical coditions(disease) among particular age group
+- Total Billing amount for each insurance provider
+- Rolling total billing amount by Month
+- Insurance provider with highest total billing amount each year
 - Patient demographics
 
 ## Tools Used
@@ -26,6 +30,6 @@ Healthcare patient records dataset.
 - MySQL Workbench
 
 ## Files
-- data_cleaning.sql
-- data_analysis.sql
+- healthcare_data_cleaning.sql
+- exploratory_healthcare_data_analysis.sql
 - healthcare_dataset.csv
